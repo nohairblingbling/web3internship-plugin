@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "week": 0,
+    "topic": "开营仪式 & 项目介绍",
+    "date": "2026-01-11",
+    "instructor": "nanako",
+    "replayLinks": {
+      "youtube": "https://www.youtube.com/watch?v=qCsZ1D0RWEI&list=PLpInLW2dF2K-koNbtY5Z6pmIicb7TC603&index=3",
+      "bilibili": "https://www.bilibili.com/video/BV1k8rhBtE2p/?spm_id_from=333.1387.collection.video_card.click"
+    },
+    "materialsLink": ""
+  },
+  {
+    "id": 2,
+    "week": 1,
+    "topic": "Web3 行业全局介绍 & 岗位概览",
+    "date": "2026-01-12",
+    "instructor": "Emily",
+    "replayLinks": {
+      "youtube": "https://www.youtube.com/watch?v=gbeRk-FMm5w&list=PLpInLW2dF2K-koNbtY5Z6pmIicb7TC603&index=2",
+      "bilibili": "https://www.bilibili.com/video/BV1nhr6BUELN/?spm_id_from=333.1387.collection.video_card.click&vd_source=40ec98907f182aaabccbf7512a5656a3"
+    },
+    "materialsLink": ""
+  },
+  {
+    "id": 3,
+    "week": 1,
+    "topic": "Web3运行原理",
+    "date": "2026-01-13",
+    "instructor": "Bruce",
+    "replayLinks": {
+      "youtube": "https://www.youtube.com/watch?v=WY8GtLbMRb4&list=PLpInLW2dF2K-koNbtY5Z6pmIicb7TC603&index=1",
+      "bilibili": "https://www.bilibili.com/video/BV1ZkrHBtEN4/?spm_id_from=333.1387.collection.video_card.click&vd_source=40ec98907f182aaabccbf7512a5656a3"
+    },
+    "materialsLink": ""
+  }
+]

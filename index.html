@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web3 实习计划（冬季）- 课程大纲与学习资料">
+  <title>Web3 实习计划（冬季）- 课程大纲</title>
+  
+  <!-- Google Fonts - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+    <div class="container header-content">
+      <a href="/" class="brand-link">
+        <div class="stack stack-xs">
+          <div class="group group-sm brand-top">
+            <span class="brand-title">Web3 实习计划</span>
+            <div class="group group-xs brand-status-wrapper">
+              <span class="status-dot"></span>
+              <span class="status-text">Season Active</span>
+            </div>
+          </div>
+          <span class="brand-subtitle">Beta 版本，更多功能开发中...</span>
+        </div>
+      </a>
+      
+      <div class="group group-md nav-links">
+        <div class="group group-xs">
+          <a href="https://x.com/web3careerbuild" target="_blank" rel="noreferrer" class="nav-item">推特</a>
+          <a href="https://t.me/Web3CareerBuild" target="_blank" rel="noreferrer" class="nav-item">社群</a>
+        </div>
+        <!-- User Profile Placeholder if needed, for now just links -->
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+      <div class="page-header stack stack-md">
+        <div class="group group-md page-title-wrapper">
+          <h1 class="page-title">Web3 实习计划（冬季）</h1>
+          <span class="badge badge-primary badge-lg">进行中</span>
+        </div>
+        <p class="page-subtitle">Bootcamp</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <ul class="tabs-list" role="tablist">
+          <li>
+            <button class="tab-button active" role="tab" aria-selected="true" data-tab="schedule">
+              课程安排
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tab Panels -->
+      <div class="tab-panels">
+        <!-- Schedule Tab -->
+        <div id="schedule" class="tab-panel active" role="tabpanel">
+          <!-- Search -->
+          <div class="search-wrapper">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+            <input 
+              type="text" 
+              class="search-input" 
+              id="searchInput" 
+              placeholder="搜索课程主题、讲师..."
+              autocomplete="off"
+            >
+          </div>
+
+          <!-- Course Table -->
+          <div class="table-wrapper">
+            <table class="table" id="courseTable">
+              <thead>
+                <tr>
+                  <th>周次</th>
+                  <th>日期</th>
+                  <th>课程主题</th>
+                  <th>讲师</th>
+                  <th>回放</th>
+                  <th>幻灯片</th>
+                </tr>
+              </thead>
+              <tbody id="courseTableBody">
+                <!-- Dynamic content will be inserted here -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Empty State (hidden by default) -->
+          <div class="empty-state" id="emptyState" style="display: none;">
+            <div class="empty-state-icon">🔍</div>
+            <p>没有找到匹配的课程</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="footer">
+      <div class="footer-grid">
+        <!-- Left Column: Brand -->
+        <div class="footer-section">
+          <h4 class="footer-title">Web3 实习计划</h4>
+          <p class="footer-description">
+            由 ETHPanda 与 LXDAO 联合发起，帮助新人用 4 周完成从认知到实战的跨越。
+          </p>
+        </div>
+
+        <!-- Middle Column: Quick Links -->
+        <div class="footer-section">
+          <p class="footer-section-title">快速入口</p>
+          <div class="footer-links-column">
+            <a href="https://web3career.build/" class="footer-link" target="_blank" rel="noreferrer">报名入口</a>
+            <a href="https://web3intern.xyz/" class="footer-link" target="_blank" rel="noreferrer">Web3 实习手册</a>
+            <a href="https://web3career.build/" class="footer-link" target="_blank" rel="noreferrer">官方平台</a>
+          </div>
+        </div>
+
+        <!-- Right Column: Social Links -->
+        <div class="footer-section">
+          <p class="footer-section-title">联系与关注</p>
+          <div class="footer-social-grid">
+            <a href="https://x.com/ETHPanda_Org" class="footer-social-link" target="_blank" rel="noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+              </svg>
+              <span>ETHPanda</span>
+            </a>
+            <a href="https://x.com/LXDAO_Official" class="footer-social-link" target="_blank" rel="noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+              </svg>
+              <span>LXDAO</span>
+            </a>
+            <a href="https://t.me/ETHPandaOrg" class="footer-social-link" target="_blank" rel="noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
+              </svg>
+              <span>ETHPanda TG</span>
+            </a>
+            <a href="https://t.me/LXDAO" class="footer-social-link" target="_blank" rel="noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
+              </svg>
+              <span>LXDAO TG</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="footer-divider"></div>
+
+      <!-- Copyright -->
+      <p class="footer-copyright">
+        © 2026 Web3 实习计划 · 由 ETHPanda 与 LXDAO 共同发起
+      </p>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/app.js"></script>
+</body>
+</html>

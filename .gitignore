@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
