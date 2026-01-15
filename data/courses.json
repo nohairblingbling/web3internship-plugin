@@ -9,7 +9,7 @@
       "youtube": "https://www.youtube.com/watch?v=qCsZ1D0RWEI&list=PLpInLW2dF2K-koNbtY5Z6pmIicb7TC603&index=3",
       "bilibili": "https://www.bilibili.com/video/BV1k8rhBtE2p/?spm_id_from=333.1387.collection.video_card.click"
     },
-    "materialsLink": ""
+    "materialsLink": "https://github.com/nohairblingbling/web3internship-plugin/blob/main/slides/Web3%20%E5%AE%9E%E4%B9%A0%E8%AE%A1%E5%88%92%EF%BC%88%E5%86%AC%E5%AD%A3%EF%BC%89%E5%BC%80%E8%90%A5%E4%BB%AA%E5%BC%8F.pdf"
   },
   {
     "id": 2,
@@ -34,5 +34,30 @@
       "bilibili": "https://www.bilibili.com/video/BV1ZkrHBtEN4/?spm_id_from=333.1387.collection.video_card.click&vd_source=40ec98907f182aaabccbf7512a5656a3"
     },
     "materialsLink": "https://github.com/nohairblingbling/web3internship-plugin/blob/main/slides/Web3%20%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86.pdf"
+  },
+    
+  {
+    "id": 4,
+    "week": 1,
+    "topic": "Web3安全",
+    "date": "2026-01-14",
+    "instructor": "Bruce",
+    "replayLinks": {
+      "youtube": "https://www.youtube.com/watch?v=d4wpNX61QyA&list=PLpInLW2dF2K-koNbtY5Z6pmIicb7TC603&index=3",
+      "bilibili": "https://www.bilibili.com/video/BV1K8rWBLEpi/?spm_id_from=333.1387.collection.video_card.click&vd_source=40ec98907f182aaabccbf7512a5656a3"
+    },
+    "materialsLink": "https://github.com/nohairblingbling/web3internship-plugin/blob/main/slides/Web3%E5%AE%89%E5%85%A8-0114.pdf"
+  },
+  {
+    "id": 5,
+    "week": 1,
+    "topic": "Web3合规",
+    "date": "2026-01-14",
+    "instructor": "Bruce",
+    "replayLinks": {
+      "youtube": "https://www.youtube.com/watch?v=DYgn0D_fVVQ&list=PLpInLW2dF2K-koNbtY5Z6pmIicb7TC603&index=2",
+      "bilibili": "https://www.bilibili.com/video/BV1qer4BuE7Y/?spm_id_from=333.1387.collection.video_card.click&vd_source=40ec98907f182aaabccbf7512a5656a3"
+    },
+    "materialsLink": "https://github.com/nohairblingbling/web3internship-plugin/blob/main/slides/%E9%82%93%E5%B0%8F%E5%AE%87%E8%AE%B2%E5%88%91%E4%BA%8B%E8%AF%BE%E4%BB%B6.pptx"
   }
 ]
